@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, master ]
     paths:
-      - 'AlgoritmosGUI/**'
+      - 'AlgoritmoGUI/**'
       - '.github/workflows/android.yml'
   workflow_dispatch:
 
