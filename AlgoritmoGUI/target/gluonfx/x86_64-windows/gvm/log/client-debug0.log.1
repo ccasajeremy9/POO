@@ -1,0 +1,52 @@
+[lun set. 07 15:34:26 PET 2026][INFO] ==================== LINK TASK ====================
+[lun set. 07 15:34:26 PET 2026][FINE] Creating icon resource
+[lun set. 07 15:34:27 PET 2026][FINE] Looking for resource: /native/windows/assets/icon.ico
+[lun set. 07 15:34:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gensrc\windows\assets\icon.ico to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\icon\icon.ico
+[lun set. 07 15:34:27 PET 2026][INFO] Default icon.ico image generated in C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gensrc\windows\assets.
+Consider copying it to C:\POO2026\POO\AlgoritmoGUI\src\windows before performing any modification
+[lun set. 07 15:34:27 PET 2026][FINE] Looking for resource: /native/windows/assets/IconGroup.rc
+[lun set. 07 15:34:27 PET 2026][FINE] PB Command for rc compile: rc -fo C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.res C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.rc
+[lun set. 07 15:34:27 PET 2026][FINE] Start process rc compile...
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] 
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] 
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] 
+[lun set. 07 15:34:28 PET 2026][FINE] Result for rc compile: 0
+[lun set. 07 15:34:28 PET 2026][FINE] PB Command for cvtres: cvtres  /machine:x64 -out:C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.obj C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.res
+[lun set. 07 15:34:28 PET 2026][FINE] Start process cvtres...
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] Recurso para el convertidor de objetos de Microsoft (R) Windows, versi�n 14.51.36256.0
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] (C) Microsoft Corporation. Reservados todos los derechos.
+[lun set. 07 15:34:28 PET 2026][FINE] [SUB] 
+[lun set. 07 15:34:28 PET 2026][FINE] Result for cvtres: 0
+[lun set. 07 15:34:28 PET 2026][FINE] IconGroup.obj created successfully
+[lun set. 07 15:34:29 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.obj to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\IconGroup.obj
+[lun set. 07 15:34:29 PET 2026][FINE] Looking for resource: /native/windows/launcher.c
+[lun set. 07 15:34:29 PET 2026][FINE] PB Command for compile-additional-sources: cl -c -DGVM_VERBOSE -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI launcher.c
+[lun set. 07 15:34:29 PET 2026][FINE] Start process compile-additional-sources...
+[lun set. 07 15:34:31 PET 2026][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+[lun set. 07 15:34:31 PET 2026][FINE] [SUB] (C) Microsoft Corporation. Todos los derechos reservados.
+[lun set. 07 15:34:31 PET 2026][FINE] [SUB] 
+[lun set. 07 15:34:31 PET 2026][FINE] [SUB] launcher.c
+[lun set. 07 15:34:32 PET 2026][FINE] Result for compile-additional-sources: 0
+[lun set. 07 15:34:32 PET 2026][FINE] PB Command for link: link C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\launcher.obj C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\SVM-1788812267924\pe.edu.upeu.algoritmogui.launcher.obj C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\IconGroup.obj j2pkcs11.lib java.lib net.lib nio.lib prefs.lib zip.lib sunmscapi.lib extnet.lib jvm.lib libchelper.lib advapi32.lib iphlpapi.lib secur32.lib userenv.lib version.lib ws2_32.lib winhttp.lib ncrypt.lib crypt32.lib mswsock.lib /NODEFAULTLIB:libcmt.lib /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup comdlg32.lib dwmapi.lib gdi32.lib imm32.lib shell32.lib uiautomationcore.lib urlmon.lib winmm.lib glass.lib javafx_font.lib javafx_iio.lib prism_common.lib prism_d3d.lib /WHOLEARCHIVE:glass.lib /WHOLEARCHIVE:javafx_font.lib /WHOLEARCHIVE:javafx_iio.lib /WHOLEARCHIVE:prism_common.lib /WHOLEARCHIVE:prism_d3d.lib /OUT:C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\AlgoritmoGUI.exe /LIBPATH:C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib /LIBPATH:C:\INSTALL\graalvm-jdk-21.0.7+8.1\lib\svm\clibraries\windows-amd64 /LIBPATH:C:\INSTALL\graalvm-jdk-21.0.7+8.1\lib\static\windows-amd64
+[lun set. 07 15:34:32 PET 2026][FINE] Start process link...
+[lun set. 07 15:34:33 PET 2026][INFO] [SUB] Microsoft (R) Incremental Linker Version 14.51.36256.0
+[lun set. 07 15:34:33 PET 2026][INFO] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[lun set. 07 15:34:33 PET 2026][INFO] [SUB] 
+[lun set. 07 15:34:35 PET 2026][INFO] [SUB]    Creando biblioteca C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\AlgoritmoGUI.lib y objeto C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\AlgoritmoGUI.exp
+[lun set. 07 15:34:37 PET 2026][FINE] Result for link: 0
+[lun set. 07 15:34:37 PET 2026][FINE] Logging process [link] to file: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\log\process-link-1788813277270.log
+[lun set. 07 15:34:37 PET 2026][FINE] PB Command for find executable: cmd.exe /c where /q ie4uinit.exe
+[lun set. 07 15:34:37 PET 2026][FINE] Start process find executable...
+[lun set. 07 15:34:39 PET 2026][FINE] Result for find executable: 0
+[lun set. 07 15:34:39 PET 2026][FINE] PB Command for find windows version: cmd.exe /c ver
+[lun set. 07 15:34:39 PET 2026][FINE] Start process find windows version...
+[lun set. 07 15:34:39 PET 2026][FINE] [SUB] 
+[lun set. 07 15:34:39 PET 2026][FINE] [SUB] Microsoft Windows [Versi�n 10.0.19041.84]
+[lun set. 07 15:34:39 PET 2026][FINE] Result for find windows version: 0
+[lun set. 07 15:34:39 PET 2026][FINE] Windows version: Microsoft Windows [Versi�n 10.0.19041.84]
+[lun set. 07 15:34:39 PET 2026][FINE] Windows Build number: 19041
+[lun set. 07 15:34:39 PET 2026][FINE] PB Command for Clear Explorer cache: ie4uinit -show
+[lun set. 07 15:34:39 PET 2026][FINE] Start process Clear Explorer cache...
+[lun set. 07 15:34:49 PET 2026][FINE] Result for Clear Explorer cache: 0

@@ -1,0 +1,88 @@
+Process
+=======
+compile
+
+Command Line
+============
+C:\INSTALL\graalvm-jdk-21.0.7+8.1\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite "-H:TempDirectory=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" -H:+PrintAnalysisCallTree "-H:Log=registerResource:" "-H:ReflectionConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\Jose\.m2\repository\com\gluonhq\substrate\0.0.69\substrate-0.0.69.jar;C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" pe.edu.upeu.algoritmogui.Launcher
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+Warning: The option '-H:ResourceConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:JNIConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:TempDirectory=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+PrintAnalysisCallTree' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ReflectionConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:Log=registerResource:' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+========================================================================================================================
+GraalVM Native Image: Generating 'pe.edu.upeu.algoritmogui.launcher' (shared library)...
+========================================================================================================================
+For detailed information and explanations on the build output, visit:
+https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+------------------------------------------------------------------------------------------------------------------------
+Warning: The host machine does not support all features of 'x86-64-v3'. Falling back to '-march=compatibility' for best compatibility.
+[1/8] Initializing...                                                                                   (22.7s @ 0.10GB)
+ Java version: 21.0.7+8-LTS, vendor version: Oracle GraalVM 21.0.7+8.1
+ Graal compiler: optimization level: 2, target machine: compatibility, PGO: ML-inferred
+ C compiler: cl.exe (microsoft, x64, 19.51.36256)
+ Garbage collector: Serial GC (max heap size: 80% of RAM)
+ 1 user-specific feature(s):
+ - com.oracle.svm.thirdparty.gson.GsonFeature
+------------------------------------------------------------------------------------------------------------------------
+ 10 experimental option(s) unlocked:
+ - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+ - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line, command line)
+ - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+ - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+ - '-H:ReflectionConfigurationFiles' (origin(s): command line)
+ - '-H:ResourceConfigurationFiles' (origin(s): command line)
+ - '-H:JNIConfigurationFiles' (origin(s): command line)
+ - '-H:IncludeResourceBundles' (origin(s): command line, command line, command line, command line)
+ - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+ - '-H:TempDirectory' (origin(s): command line)
+------------------------------------------------------------------------------------------------------------------------
+Build resources:
+ - 3.01GB of memory (75.6% of 3.98GB system memory, determined at start)
+ - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
+Found pending operations, continuing analysis.
+[2/8] Performing analysis...  [******]                                                                 (156.8s @ 1.34GB)
+   11,933 reachable types   (88.6% of   13,466 total)
+   19,839 reachable fields  (63.6% of   31,192 total)
+   62,907 reachable methods (63.7% of   98,753 total)
+    3,393 types,   213 fields, and 2,788 methods registered for reflection
+      130 types,   132 fields, and   209 methods registered for JNI access
+        4 native libraries: crypt32, ncrypt, version, winhttp
+# Printing call tree to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\call_tree_pe.edu.upeu.algoritmogui.launcher_20260907_152044.txt
+# Printing list of used methods to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\used_methods_pe.edu.upeu.algoritmogui.launcher_20260907_152048.txt
+# Printing list of used classes to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\used_classes_pe.edu.upeu.algoritmogui.launcher_20260907_152049.txt
+# Printing list of used packages to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\used_packages_pe.edu.upeu.algoritmogui.launcher_20260907_152049.txt
+[3/8] Building universe...                                                                              (17.5s @ 1.13GB)
+[4/8] Parsing methods...      [********]                                                                (60.1s @ 0.81GB)
+[5/8] Inlining methods...     [****]                                                                     (8.1s @ 1.15GB)
+[6/8] Compiling methods...    [*****************]                                                      (290.1s @ 1.51GB)
+[7/8] Laying out methods...   [*************]                                                          (176.7s @ 1.48GB)
+
+------------------------------------------------------------------------------------------------------------------------
+                      260.3s (26.1% of total time) in 332 GCs | Peak RSS: 2.36GB | CPU load: 1.88
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\graal_isolate.h (c_header)
+ C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\graal_isolate_dynamic.h (c_header)
+ C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\pe.edu.upeu.algoritmogui.launcher.h (c_header)
+ C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\pe.edu.upeu.algoritmogui.launcher_dynamic.h (c_header)
+========================================================================================================================
+Finished generating 'pe.edu.upeu.algoritmogui.launcher' in 16m 30s.
+
+
+Result
+======
+result: 0

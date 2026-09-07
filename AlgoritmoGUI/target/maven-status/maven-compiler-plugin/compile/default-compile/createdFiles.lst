@@ -1,0 +1,5 @@
+module-info.class
+pe\edu\upeu\algoritmogui\Launcher.class
+pe\edu\upeu\algoritmogui\MatrizGUI.class
+pe\edu\upeu\algoritmogui\HelloController.class
+pe\edu\upeu\algoritmogui\HelloApplication.class

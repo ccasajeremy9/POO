@@ -1,0 +1,179 @@
+[lun set. 07 15:16:18 PET 2026][INFO] ==================== COMPILE TASK ====================
+[lun set. 07 15:16:21 PET 2026][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[lun set. 07 15:16:21 PET 2026][FINE] Processing JavaStatic dependencies at C:\Users\Jose\.gluon\substrate\javaStaticSdk\18-ea+prep18-9\windows-x86_64\staticjdk\lib\static
+[lun set. 07 15:16:21 PET 2026][FINE] Processing JavaFXStatic dependencies at C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib
+[lun set. 07 15:16:21 PET 2026][INFO] Downloading JavaFX static libs...
+[lun set. 07 15:16:21 PET 2026][FINE] Processing zip file: url = https://download2.gluonhq.com/substrate/javafxstaticsdk/openjfx-21-ea+11.3-windows-x86_64-static.zip, zip = C:\Users\Jose\.gluon\substrate\openjfx-21-ea+11.3-windows-x86_64-static.zip, subDir = javafxStaticSdk, levels = [21-ea+11.3, windows-x86_64], md5 = javafxStaticSdk-windows-x86_64.md5
+[lun set. 07 15:17:19 PET 2026][INFO] JavaFX static libs downloaded successfully
+[lun set. 07 15:17:19 PET 2026][FINE] Setup dependencies done
+[lun set. 07 15:17:19 PET 2026][FINE] Extracting native libs to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\lib
+[lun set. 07 15:17:19 PET 2026][FINE] Extracting native libs from jar: C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[lun set. 07 15:17:19 PET 2026][FINE] Extracting native libs from jar: C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[lun set. 07 15:17:19 PET 2026][FINE] Extracting native libs from jar: C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[lun set. 07 15:17:19 PET 2026][FINE] Extracting native libs from jar: C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[lun set. 07 15:17:19 PET 2026][FINE] Extracting native libs from jar: C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[lun set. 07 15:17:19 PET 2026][FINE] Looking for resource: /native/windows/launcher.c
+[lun set. 07 15:17:19 PET 2026][FINE] PB Command for compile-additional-sources: cl -c -DGVM_VERBOSE -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI launcher.c
+[lun set. 07 15:17:19 PET 2026][FINE] Start process compile-additional-sources...
+[lun set. 07 15:17:19 PET 2026][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+[lun set. 07 15:17:19 PET 2026][FINE] [SUB] (C) Microsoft Corporation. Todos los derechos reservados.
+[lun set. 07 15:17:19 PET 2026][FINE] [SUB] 
+[lun set. 07 15:17:20 PET 2026][FINE] [SUB] launcher.c
+[lun set. 07 15:17:26 PET 2026][FINE] Result for compile-additional-sources: 0
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\META-INF\native-image\filter-file.json to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\META-INF\native-image\filter-file.json
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\module-info.class to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\module-info.class
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\hello-view.fxml to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\pe\edu\upeu\algoritmogui\hello-view.fxml
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\HelloApplication.class to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\pe\edu\upeu\algoritmogui\HelloApplication.class
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\HelloController.class to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\pe\edu\upeu\algoritmogui\HelloController.class
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\Launcher.class to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\pe\edu\upeu\algoritmogui\Launcher.class
+[lun set. 07 15:17:26 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\MatrizGUI.class to C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\pe\edu\upeu\algoritmogui\MatrizGUI.class
+[lun set. 07 15:17:26 PET 2026][FINE] PB Command for jar: C:\INSTALL\graalvm-jdk-21.0.7+8.1\bin\jar.exe cf C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\classes.jar -C C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238 .
+[lun set. 07 15:17:26 PET 2026][FINE] Start process jar...
+[lun set. 07 15:17:26 PET 2026][FINE] Result for jar: 0
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning for init build time files
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\classes.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning for reflection files
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar::META-INF/substrate/config/reflectionconfig.json
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-windows.json
+[lun set. 07 15:17:26 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\classes.jar
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning for JNI files
+[lun set. 07 15:17:26 PET 2026][FINE] Scanning C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-windows.json
+[lun set. 07 15:17:27 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\classes.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning for resource files
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\AppData\Local\Temp\classes17227631210848352238\classes.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\META-INF\native-image\filter-file.json to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\META-INF\native-image\filter-file.json
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\module-info.class to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\module-info.class
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\hello-view.fxml to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\pe\edu\upeu\algoritmogui\hello-view.fxml
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\HelloApplication.class to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\pe\edu\upeu\algoritmogui\HelloApplication.class
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\HelloController.class to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\pe\edu\upeu\algoritmogui\HelloController.class
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\Launcher.class to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\pe\edu\upeu\algoritmogui\Launcher.class
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\POO2026\POO\AlgoritmoGUI\target\classes\pe\edu\upeu\algoritmogui\MatrizGUI.class to C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\pe\edu\upeu\algoritmogui\MatrizGUI.class
+[lun set. 07 15:17:27 PET 2026][FINE] PB Command for jar: C:\INSTALL\graalvm-jdk-21.0.7+8.1\bin\jar.exe cf C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\classes.jar -C C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940 .
+[lun set. 07 15:17:27 PET 2026][FINE] Start process jar...
+[lun set. 07 15:17:27 PET 2026][FINE] Result for jar: 0
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning for resource bundles
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[lun set. 07 15:17:27 PET 2026][FINE] Adding classes from C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles-x86_64-windows
+[lun set. 07 15:17:27 PET 2026][FINE] Scanning C:\Users\Jose\AppData\Local\Temp\classes7835608134742084940\classes.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\Users\Jose\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\controlsfx-11.2.1.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.base.jar to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.base.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.controls.jar to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.controls.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.fxml.jar to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.fxml.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Copied resource C:\Users\Jose\.gluon\substrate\javafxStaticSdk\21-ea+11.3\windows-x86_64\sdk\lib\javafx.graphics.jar to C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.graphics.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Class-Path manifest entry for pathing jar: ..\..\..\..\classes deps\controlsfx-11.2.1.jar deps\javafx.base.jar deps\javafx.controls.jar deps\javafx.fxml.jar deps\javafx.graphics.jar
+[lun set. 07 15:17:27 PET 2026][FINE] Pathing jar created at C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar
+[lun set. 07 15:17:27 PET 2026][FINE] PB Command for compile: C:\INSTALL\graalvm-jdk-21.0.7+8.1\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite "-H:TempDirectory=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" -H:+PrintAnalysisCallTree "-H:Log=registerResource:" "-H:ReflectionConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\Jose\.m2\repository\com\gluonhq\substrate\0.0.69\substrate-0.0.69.jar;C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" pe.edu.upeu.algoritmogui.Launcher
+[lun set. 07 15:17:27 PET 2026][FINE] Start process compile...
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:ResourceConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:JNIConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:TempDirectory=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:+PrintAnalysisCallTree' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:ReflectionConfigurationFiles=C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:Log=registerResource:' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+[lun set. 07 15:17:30 PET 2026][INFO] [SUB] Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] ========================================================================================================================
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] GraalVM Native Image: Generating 'pe.edu.upeu.algoritmogui.launcher' (shared library)...
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] ========================================================================================================================
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] For detailed information and explanations on the build output, visit:
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[lun set. 07 15:17:45 PET 2026][INFO] [SUB] Warning: The host machine does not support all features of 'x86-64-v3'. Falling back to '-march=compatibility' for best compatibility.
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB] [1/8] Initializing...                                                                                   (22.7s @ 0.10GB)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  Java version: 21.0.7+8-LTS, vendor version: Oracle GraalVM 21.0.7+8.1
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  Graal compiler: optimization level: 2, target machine: compatibility, PGO: ML-inferred
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  C compiler: cl.exe (microsoft, x64, 19.51.36256)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  Garbage collector: Serial GC (max heap size: 80% of RAM)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  1 user-specific feature(s):
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - com.oracle.svm.thirdparty.gson.GsonFeature
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  10 experimental option(s) unlocked:
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line, command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:ReflectionConfigurationFiles' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:ResourceConfigurationFiles' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:JNIConfigurationFiles' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:IncludeResourceBundles' (origin(s): command line, command line, command line, command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - '-H:TempDirectory' (origin(s): command line)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB] Build resources:
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - 3.01GB of memory (75.6% of 3.98GB system memory, determined at start)
+[lun set. 07 15:18:01 PET 2026][INFO] [SUB]  - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
+[lun set. 07 15:20:34 PET 2026][INFO] [SUB] Found pending operations, continuing analysis.
+[lun set. 07 15:20:38 PET 2026][INFO] [SUB] [2/8] Performing analysis...  [******]                                                                 (156.8s @ 1.34GB)
+[lun set. 07 15:20:39 PET 2026][INFO] [SUB]    11,933 reachable types   (88.6% of   13,466 total)
+[lun set. 07 15:20:39 PET 2026][INFO] [SUB]    19,839 reachable fields  (63.6% of   31,192 total)
+[lun set. 07 15:20:39 PET 2026][INFO] [SUB]    62,907 reachable methods (63.7% of   98,753 total)
+[lun set. 07 15:20:39 PET 2026][INFO] [SUB]     3,393 types,   213 fields, and 2,788 methods registered for reflection
+[lun set. 07 15:20:39 PET 2026][INFO] [SUB]       130 types,   132 fields, and   209 methods registered for JNI access
+[lun set. 07 15:20:39 PET 2026][INFO] [SUB]         4 native libraries: crypt32, ncrypt, version, winhttp
+[lun set. 07 15:20:44 PET 2026][INFO] [SUB] # Printing call tree to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\call_tree_pe.edu.upeu.algoritmogui.launcher_20260907_152044.txt
+[lun set. 07 15:20:48 PET 2026][INFO] [SUB] # Printing list of used methods to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\used_methods_pe.edu.upeu.algoritmogui.launcher_20260907_152048.txt
+[lun set. 07 15:20:49 PET 2026][INFO] [SUB] # Printing list of used classes to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\used_classes_pe.edu.upeu.algoritmogui.launcher_20260907_152049.txt
+[lun set. 07 15:20:49 PET 2026][INFO] [SUB] # Printing list of used packages to: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\reports\used_packages_pe.edu.upeu.algoritmogui.launcher_20260907_152049.txt
+[lun set. 07 15:21:06 PET 2026][INFO] [SUB] [3/8] Building universe...                                                                              (17.5s @ 1.13GB)
+[lun set. 07 15:22:14 PET 2026][INFO] [SUB] [4/8] Parsing methods...      [********]                                                                (60.1s @ 0.81GB)
+[lun set. 07 15:22:24 PET 2026][INFO] [SUB] [5/8] Inlining methods...     [****]                                                                     (8.1s @ 1.15GB)
+[lun set. 07 15:27:16 PET 2026][INFO] [SUB] [6/8] Compiling methods...    [*****************]                                                      (290.1s @ 1.51GB)
+[lun set. 07 15:30:14 PET 2026][INFO] [SUB] [7/8] Laying out methods...   [*************]                                                          (176.7s @ 1.48GB)
+[lun set. 07 15:34:08 PET 2026][INFO] [SUB] 
+[lun set. 07 15:34:09 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[lun set. 07 15:34:09 PET 2026][INFO] [SUB]                       260.3s (26.1% of total time) in 332 GCs | Peak RSS: 2.36GB | CPU load: 1.88
+[lun set. 07 15:34:09 PET 2026][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[lun set. 07 15:34:09 PET 2026][INFO] [SUB] Produced artifacts:
+[lun set. 07 15:34:10 PET 2026][INFO] [SUB]  C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\graal_isolate.h (c_header)
+[lun set. 07 15:34:10 PET 2026][INFO] [SUB]  C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\graal_isolate_dynamic.h (c_header)
+[lun set. 07 15:34:10 PET 2026][INFO] [SUB]  C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\pe.edu.upeu.algoritmogui.launcher.h (c_header)
+[lun set. 07 15:34:10 PET 2026][INFO] [SUB]  C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\x86_64-windows\gvm\AlgoritmoGUI\pe.edu.upeu.algoritmogui.launcher_dynamic.h (c_header)
+[lun set. 07 15:34:10 PET 2026][INFO] [SUB] ========================================================================================================================
+[lun set. 07 15:34:10 PET 2026][INFO] [SUB] Finished generating 'pe.edu.upeu.algoritmogui.launcher' in 16m 30s.
+[lun set. 07 15:34:18 PET 2026][FINE] Result for compile: 0
+[lun set. 07 15:34:22 PET 2026][FINE] Logging process [compile] to file: C:\POO2026\POO\AlgoritmoGUI\target\gluonfx\log\process-compile-1788813261737.log
+[lun set. 07 15:34:24 PET 2026][FINE] PB Command for check version: C:\INSTALL\graalvm-jdk-21.0.7+8.1\bin\java -version
+[lun set. 07 15:34:25 PET 2026][FINE] Start process check version...
+[lun set. 07 15:34:26 PET 2026][FINE] [SUB] java version "21.0.7" 2025-04-15 LTS
+[lun set. 07 15:34:26 PET 2026][FINE] [SUB] Java(TM) SE Runtime Environment Oracle GraalVM 21.0.7+8.1 (build 21.0.7+8-LTS-jvmci-23.1-b60)
+[lun set. 07 15:34:26 PET 2026][FINE] [SUB] Java HotSpot(TM) 64-Bit Server VM Oracle GraalVM 21.0.7+8.1 (build 21.0.7+8-LTS-jvmci-23.1-b60, mixed mode, sharing)
+[lun set. 07 15:34:26 PET 2026][FINE] Result for check version: 0
+[lun set. 07 15:34:26 PET 2026][INFO] Substrate is tested with the Gluon's GraalVM build which you can find at https://github.com/gluonhq/graal/releases.
+While you can still use other GraalVM builds, there is no guarantee that these will work properly with Substrate
