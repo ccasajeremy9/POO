@@ -63,7 +63,11 @@
                               <ComboBox maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="6" />
                               <Label text="Categoria" GridPane.rowIndex="7" />
                               <ComboBox maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" />
-                              <Label text="Label" GridPane.rowIndex="8" />
+                              <Label GridPane.rowIndex="8" />
+                              <Label text="Unidad Medida" GridPane.rowIndex="8" />
+                              <ComboBox maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="8" />
+                              <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="9" />
                            </children>
                         </GridPane>
                      </children>
