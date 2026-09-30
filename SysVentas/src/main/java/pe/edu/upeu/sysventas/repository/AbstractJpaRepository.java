@@ -9,12 +9,12 @@ public abstract class AbstractJpaRepository<T,ID> implements ICrudGenericoReposi
     protected  final List<T> data=new ArrayList<>();
     protected abstract ID getId(T entity);
     protected abstract void setId(T entity, ID id);
-    protected abstract ID genetareId();
+    protected abstract ID generateId();
 
     @Override
     public T save(T entity) {
         if(getId(entity)==null){
-            setId(entity, genetareId());
+            setId(entity, generateId());
         }
         data.add(entity);
         return entity;
@@ -27,6 +27,7 @@ public abstract class AbstractJpaRepository<T,ID> implements ICrudGenericoReposi
             T registro=data.get(i);
             if(getId(registro).equals(id)){
                 data.set(i, entity);
+                return entity;
             }
         }
         throw new RuntimeException("No se encontro el registro con ID "+id);
