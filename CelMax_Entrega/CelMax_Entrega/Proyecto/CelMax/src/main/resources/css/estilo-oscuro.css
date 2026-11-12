@@ -1,0 +1,15 @@
+/* CelMax - estilo oscuro: se carga DESPUES de style.css y solo cambia la paleta */
+.root {
+    -c-primary: #818cf8;
+    -c-primary-dark: #6366f1;
+    -c-bg: #0f172a;
+    -c-surface: #1e293b;
+    -c-surface-2: #273449;
+    -c-text: #e2e8f0;
+    -c-muted: #94a3b8;
+    -c-border: #334155;
+    -c-danger-soft: #4c1d24;
+}
+.table-row-cell.fila-alerta .table-cell { -fx-text-fill: #fecaca; }
+.table-row-cell:selected .table-cell { -fx-text-fill: #0f172a; }
+.header, .login-left { -fx-background-color: linear-gradient(to right, #1e1b4b, #3730a3 60%, #155e75); }

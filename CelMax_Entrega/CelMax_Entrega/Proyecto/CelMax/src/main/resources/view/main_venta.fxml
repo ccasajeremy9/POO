@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="miContenedor" styleClass="page" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.celmax.controller.VentaController">
+   <children>
+      <VBox spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <VBox spacing="2.0">
+                     <Label text="Registrar venta" styleClass="page-title"/>
+                     <Label text="Agrega celulares y accesorios al carrito y confirma la venta" styleClass="page-subtitle"/>
+                  </VBox>
+                  <Region HBox.hgrow="ALWAYS"/>
+                  <VBox alignment="CENTER_RIGHT">
+                     <Label text="VENDEDOR" styleClass="field-label"/>
+                     <Label fx:id="lblVendedor" styleClass="section-title"/>
+                  </VBox>
+                  <VBox alignment="CENTER_RIGHT">
+                     <Label text="FECHA" styleClass="field-label"/>
+                     <Label fx:id="lblFecha" styleClass="section-title"/>
+                  </VBox>
+               </children>
+            </HBox>
+
+            <HBox spacing="16.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <!-- Datos de la venta -->
+                  <VBox spacing="6.0" styleClass="card" prefWidth="380.0" minWidth="340.0">
+                     <children>
+                        <Label text="1. Cliente" styleClass="section-title"/>
+                        <ComboBox fx:id="cbxCliente" promptText="Seleccione un cliente" maxWidth="1.7976931348623157E308"/>
+                        <Label text="¿No está en la lista? Regístrelo en Ventas → Clientes" styleClass="page-subtitle" wrapText="true"/>
+                        <Region prefHeight="10.0"/>
+                        <Label text="2. Producto" styleClass="section-title"/>
+                        <ComboBox fx:id="cbxProducto" promptText="Celular o accesorio" maxWidth="1.7976931348623157E308"/>
+                        <Label fx:id="lblInfoProducto" styleClass="page-subtitle"/>
+                        <Label text="CANTIDAD" styleClass="field-label"/>
+                        <HBox spacing="10.0">
+                           <children>
+                              <TextField fx:id="txtCantidad" prefWidth="90.0" onAction="#agregar"/>
+                              <Button text="Agregar al carrito" onAction="#agregar" styleClass="btn-primary" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS"/>
+                           </children>
+                        </HBox>
+                        <Label fx:id="lbnMsg" wrapText="true" text=""/>
+                        <Region VBox.vgrow="ALWAYS"/>
+                        <!-- Totales -->
+                        <VBox spacing="6.0" styleClass="total-box">
+                           <children>
+                              <HBox><Label text="Op. gravada (neto)"/><Region HBox.hgrow="ALWAYS"/><Label fx:id="lblNeto" text="S/ 0.00"/></HBox>
+                              <HBox><Label text="IGV (18%)"/><Region HBox.hgrow="ALWAYS"/><Label fx:id="lblIgv" text="S/ 0.00"/></HBox>
+                              <Separator/>
+                              <HBox alignment="CENTER_LEFT"><Label text="TOTAL" styleClass="section-title"/><Region HBox.hgrow="ALWAYS"/><Label fx:id="lblTotal" text="S/ 0.00" styleClass="total-grande"/></HBox>
+                           </children>
+                        </VBox>
+                        <HBox spacing="10.0" style="-fx-padding: 8 0 0 0;">
+                           <children>
+                              <Button text="Registrar venta" onAction="#registrarVenta" styleClass="btn-success" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS"/>
+                              <Button text="Cancelar" onAction="#limpiar" styleClass="btn-secondary"/>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <!-- Carrito -->
+                  <VBox spacing="10.0" styleClass="card" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label text="Carrito" styleClass="section-title"/>
+                        <TableView fx:id="tableView" VBox.vgrow="ALWAYS">
+                           <placeholder><Label text="El carrito está vacío"/></placeholder>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bp" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.celmax.controller.MainguiController">
+   <top>
+      <VBox fx:id="topBox">
+         <children>
+            <HBox fx:id="header" alignment="CENTER_LEFT" styleClass="header">
+               <children>
+                  <Label text="CelMax" styleClass="header-title"/>
+                  <Label text="Sistema de ventas" styleClass="header-badge"/>
+                  <Region HBox.hgrow="ALWAYS"/>
+                  <Label fx:id="lblUsuario" styleClass="header-user"/>
+                  <Label fx:id="lblPerfil" styleClass="header-badge"/>
+               </children>
+            </HBox>
+            <!-- el menu se arma por codigo segun el perfil (MainguiController.graficarMenus) -->
+            <MenuBar fx:id="menuBar"/>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <TabPane fx:id="tabPane" tabClosingPolicy="ALL_TABS" BorderPane.alignment="CENTER"/>
+   </center>
+</BorderPane>

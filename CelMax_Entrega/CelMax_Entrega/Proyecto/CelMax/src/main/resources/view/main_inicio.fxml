@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="18.0" styleClass="page" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pe.edu.upeu.celmax.controller.InicioController">
+   <children>
+      <HBox alignment="CENTER_LEFT">
+         <children>
+            <VBox spacing="2.0">
+               <Label fx:id="lblBienvenida" styleClass="page-title"/>
+               <Label text="Resumen general de CelMax" styleClass="page-subtitle"/>
+            </VBox>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Button text="Actualizar" onAction="#actualizar" styleClass="btn-secondary"/>
+         </children>
+      </HBox>
+
+      <HBox spacing="16.0">
+         <children>
+            <VBox styleClass="stat-card, stat-1" HBox.hgrow="ALWAYS" maxWidth="1.7976931348623157E308">
+               <Label fx:id="lblVentas" styleClass="stat-value" text="0"/>
+               <Label text="Ventas registradas" styleClass="stat-label"/>
+            </VBox>
+            <VBox styleClass="stat-card, stat-2" HBox.hgrow="ALWAYS" maxWidth="1.7976931348623157E308">
+               <Label fx:id="lblTotal" styleClass="stat-value" text="S/ 0.00"/>
+               <Label text="Total vendido" styleClass="stat-label"/>
+            </VBox>
+            <VBox styleClass="stat-card, stat-3" HBox.hgrow="ALWAYS" maxWidth="1.7976931348623157E308">
+               <Label fx:id="lblClientes" styleClass="stat-value" text="0"/>
+               <Label text="Clientes" styleClass="stat-label"/>
+            </VBox>
+            <VBox styleClass="stat-card, stat-4" HBox.hgrow="ALWAYS" maxWidth="1.7976931348623157E308">
+               <Label fx:id="lblCelulares" styleClass="stat-value" text="0"/>
+               <Label text="Celulares en stock" styleClass="stat-label"/>
+            </VBox>
+         </children>
+      </HBox>
+
+      <HBox spacing="16.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox spacing="10.0" styleClass="card" HBox.hgrow="ALWAYS">
+               <Label text="Últimas ventas" styleClass="section-title"/>
+               <TableView fx:id="tblUltimas" VBox.vgrow="ALWAYS" prefHeight="300.0">
+                  <placeholder><Label text="Aún no hay ventas"/></placeholder>
+               </TableView>
+            </VBox>
+            <VBox spacing="10.0" styleClass="card" prefWidth="420.0">
+               <Label text="Accesorios con stock bajo" styleClass="section-title"/>
+               <TableView fx:id="tblStockBajo" VBox.vgrow="ALWAYS" prefHeight="300.0">
+                  <placeholder><Label text="Todo el stock está bien"/></placeholder>
+               </TableView>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

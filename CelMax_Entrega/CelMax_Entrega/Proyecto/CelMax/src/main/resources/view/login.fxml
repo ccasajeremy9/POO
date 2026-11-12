@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox prefHeight="440.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pe.edu.upeu.celmax.controller.LoginController">
+   <children>
+      <!-- Panel izquierdo: marca -->
+      <VBox alignment="CENTER_LEFT" prefWidth="360.0" spacing="14.0" styleClass="login-left" HBox.hgrow="NEVER">
+         <children>
+            <StackPane styleClass="brand-logo" maxWidth="64" maxHeight="64">
+               <Label text="C" styleClass="brand-logo-text"/>
+            </StackPane>
+            <Label text="CelMax" styleClass="brand-title"/>
+            <Label text="Sistema de ventas de celulares y accesorios" styleClass="brand-sub" wrapText="true"/>
+            <Region prefHeight="20.0"/>
+            <FlowPane hgap="8.0" vgap="8.0">
+               <children>
+                  <Label text="Celulares" styleClass="brand-chip"/>
+                  <Label text="Accesorios" styleClass="brand-chip"/>
+                  <Label text="Inventario" styleClass="brand-chip"/>
+                  <Label text="Ventas" styleClass="brand-chip"/>
+               </children>
+            </FlowPane>
+         </children>
+      </VBox>
+
+      <!-- Panel derecho: formulario -->
+      <VBox alignment="CENTER_LEFT" spacing="8.0" styleClass="login-right" HBox.hgrow="ALWAYS">
+         <children>
+            <Label text="Bienvenido" styleClass="login-title"/>
+            <Label text="Ingresa tus credenciales para continuar" styleClass="page-subtitle"/>
+            <Region prefHeight="14.0"/>
+            <Label text="USUARIO" styleClass="field-label"/>
+            <TextField fx:id="txtUsuario" promptText="Ej. Isaac" onAction="#login"/>
+            <Region prefHeight="4.0"/>
+            <Label text="CONTRASEÑA" styleClass="field-label"/>
+            <PasswordField fx:id="txtClave" promptText="••••••••" onAction="#login"/>
+            <Label fx:id="lblError" styleClass="login-error" text=" "/>
+            <HBox spacing="10.0">
+               <children>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#login"
+                          styleClass="btn-primary" text="Ingresar" HBox.hgrow="ALWAYS"/>
+                  <Button mnemonicParsing="false" onAction="#logout" styleClass="btn-secondary" text="Salir"/>
+               </children>
+               <VBox.margin>
+                  <Insets top="6.0"/>
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

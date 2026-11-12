@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="16.0" styleClass="page" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pe.edu.upeu.celmax.controller.HistorialVentaController">
+   <children>
+      <HBox alignment="CENTER_LEFT" spacing="10.0">
+         <children>
+            <VBox spacing="2.0">
+               <Label text="Historial de ventas" styleClass="page-title"/>
+               <Label fx:id="lblResumen" styleClass="page-subtitle"/>
+            </VBox>
+            <Region HBox.hgrow="ALWAYS"/>
+            <TextField fx:id="txtFiltroDato" promptText="Buscar por venta, DNI, cliente o vendedor" prefWidth="320.0"/>
+            <Button text="Actualizar" onAction="#listar" styleClass="btn-secondary"/>
+         </children>
+      </HBox>
+      <VBox spacing="10.0" styleClass="card" VBox.vgrow="ALWAYS">
+         <children>
+            <Label text="Ventas" styleClass="section-title"/>
+            <TableView fx:id="tblVentas" VBox.vgrow="ALWAYS" prefHeight="280.0">
+               <placeholder><Label text="No hay ventas registradas"/></placeholder>
+            </TableView>
+         </children>
+      </VBox>
+      <VBox spacing="10.0" styleClass="card" VBox.vgrow="ALWAYS">
+         <children>
+            <Label fx:id="lblDetalle" styleClass="section-title"/>
+            <TableView fx:id="tblDetalle" VBox.vgrow="ALWAYS" prefHeight="200.0">
+               <placeholder><Label text="Sin detalle"/></placeholder>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</VBox>

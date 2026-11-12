@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="miContenedor" styleClass="page" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.celmax.controller.ClienteController">
+   <children>
+      <VBox spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox spacing="2.0">
+               <Label text="Clientes" styleClass="page-title"/>
+               <Label text="Registro de los clientes que compran en CelMax" styleClass="page-subtitle"/>
+            </VBox>
+            <HBox spacing="16.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <!-- Formulario -->
+                  <VBox spacing="6.0" styleClass="card" prefWidth="340.0" minWidth="320.0">
+                     <children>
+                  <Label fx:id="lblTitulo" text="Nuevo cliente" styleClass="section-title"/>
+                  <Label text="DNI" styleClass="field-label"/>
+                  <TextField fx:id="txtDni" promptText="8 dígitos"/>
+                  <Label text="NOMBRE COMPLETO" styleClass="field-label"/>
+                  <TextField fx:id="txtNombre" promptText="Nombres y apellidos"/>
+                  <Label text="CELULAR" styleClass="field-label"/>
+                  <TextField fx:id="txtCelular" promptText="9 dígitos"/>
+                  <Label text="CORREO" styleClass="field-label"/>
+                  <TextField fx:id="txtCorreo" promptText="correo@ejemplo.com"/>
+                  <HBox spacing="10.0" style="-fx-padding: 10 0 0 0;">
+                     <children>
+                        <Button text="Guardar" onAction="#validarFormulario" styleClass="btn-primary" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS"/>
+                        <Button text="Nuevo" onAction="#clearForm" styleClass="btn-secondary"/>
+                     </children>
+                  </HBox>
+                  <Label fx:id="lbnMsg" wrapText="true" text=""/>
+                     </children>
+                  </VBox>
+                  <!-- Tabla -->
+                  <VBox spacing="10.0" styleClass="card" HBox.hgrow="ALWAYS">
+                     <children>
+                  <HBox alignment="CENTER_LEFT" spacing="10.0">
+                     <children>
+                     <Label text="Lista de clientes" styleClass="section-title"/>
+                     <Region HBox.hgrow="ALWAYS"/>
+                     <TextField fx:id="txtFiltroDato" promptText="Buscar..." prefWidth="240.0"/>
+                     </children>
+                  </HBox>
+                  <TableView fx:id="tableView" VBox.vgrow="ALWAYS">
+                     <placeholder><Label text="No hay registros"/></placeholder>
+                  </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

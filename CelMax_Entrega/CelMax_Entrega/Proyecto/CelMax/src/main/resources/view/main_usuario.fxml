@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="miContenedor" styleClass="page" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.celmax.controller.UsuarioController">
+   <children>
+      <VBox spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox spacing="2.0">
+               <Label text="Usuarios" styleClass="page-title"/>
+               <Label text="Trabajadores que ingresan al sistema y su perfil" styleClass="page-subtitle"/>
+            </VBox>
+            <HBox spacing="16.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <!-- Formulario -->
+                  <VBox spacing="6.0" styleClass="card" prefWidth="340.0" minWidth="320.0">
+                     <children>
+                  <Label fx:id="lblTitulo" text="Nuevo usuario" styleClass="section-title"/>
+                  <Label text="USUARIO" styleClass="field-label"/>
+                  <TextField fx:id="txtUsuario" promptText="Nombre de usuario"/>
+                  <Label text="CONTRASEÑA" styleClass="field-label"/>
+                  <PasswordField fx:id="txtClave" promptText="Mínimo 6 caracteres"/>
+                  <Label text="PERFIL" styleClass="field-label"/>
+                  <ComboBox fx:id="cbxPerfil" promptText="Seleccione" maxWidth="1.7976931348623157E308"/>
+                  <HBox spacing="10.0" style="-fx-padding: 10 0 0 0;">
+                     <children>
+                        <Button text="Guardar" onAction="#validarFormulario" styleClass="btn-primary" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS"/>
+                        <Button text="Nuevo" onAction="#clearForm" styleClass="btn-secondary"/>
+                     </children>
+                  </HBox>
+                  <Label fx:id="lbnMsg" wrapText="true" text=""/>
+                     </children>
+                  </VBox>
+                  <!-- Tabla -->
+                  <VBox spacing="10.0" styleClass="card" HBox.hgrow="ALWAYS">
+                     <children>
+                  <HBox alignment="CENTER_LEFT" spacing="10.0">
+                     <children>
+                     <Label text="Lista de usuarios" styleClass="section-title"/>
+                     </children>
+                  </HBox>
+                  <TableView fx:id="tableView" VBox.vgrow="ALWAYS">
+                     <placeholder><Label text="No hay registros"/></placeholder>
+                  </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
